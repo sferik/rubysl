@@ -110,7 +110,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "rubysl-uri",            "~> 2.0"
   spec.add_runtime_dependency "rubysl-weak_ref",       "~> 2.0"
   spec.add_runtime_dependency "rubysl-webrick",        "~> 2.0"
-  spec.add_runtime_dependency "rubysl-win32ole",       "~> 2.0"
   spec.add_runtime_dependency "rubysl-xmlrpc",         "~> 2.0"
   spec.add_runtime_dependency "rubysl-yaml",           "~> 2.0"
   spec.add_runtime_dependency "rubysl-zlib",           "~> 2.0"
