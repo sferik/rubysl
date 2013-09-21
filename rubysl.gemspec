@@ -33,6 +33,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "rubysl-digest",         "~> 2.0"
   spec.add_runtime_dependency "rubysl-drb",            "~> 2.0"
   spec.add_runtime_dependency "rubysl-english",        "~> 2.0"
+  spec.add_runtime_dependency "rubysl-enumerator",     "~> 2.0"
   spec.add_runtime_dependency "rubysl-erb",            "~> 2.0"
   spec.add_runtime_dependency "rubysl-etc",            "~> 2.0"
   spec.add_runtime_dependency "rubysl-expect",         "~> 2.0"
