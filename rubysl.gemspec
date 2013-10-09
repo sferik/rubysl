@@ -113,7 +113,7 @@ Gem::Specification.new do |spec|
 
   # These are in MRI's standard library and are already commonly used gems so
   # RubySL is not repackaging them.
-  spec.add_runtime_dependency "minitest", "~> 4.5"
+  spec.add_runtime_dependency "minitest", ">= 4.5"
   spec.add_runtime_dependency "psych",    "~> 2.0"
   spec.add_runtime_dependency "racc",     "~> 1.4"
 end
