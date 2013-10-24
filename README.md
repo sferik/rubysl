@@ -16,6 +16,15 @@ Or install it yourself as:
 
     $ gem install rubysl
 
+Though part of MRI's standard library, RubySL does not provide racc or psych because they are already separately maintained gems. You may need to add them to your Gemfile in addition to rubysl:
+
+    gem 'racc'
+    gem 'psych'
+
+Or install them:
+
+    $ gem install racc psych
+
 ## Usage
 
 TODO: Write usage instructions here
