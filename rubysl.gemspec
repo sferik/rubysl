@@ -1,5 +1,4 @@
 # -*- encoding: utf-8 -*-
-
 Gem::Specification.new do |spec|
   spec.name          = "rubysl"
   spec.version       = "2.0.11"
