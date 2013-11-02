@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 Gem::Specification.new do |spec|
   spec.name          = "rubysl"
-  spec.version       = "2.0.11"
+  spec.version       = "2.0.12"
   spec.authors       = ["Brian Shirai"]
   spec.email         = ["brixen@gmail.com"]
   spec.description   = %q{Ruby 1.9+ standard library meta-spec. Install this spec to install the Ruby standard library on compliant Ruby implementations that provide Ruby 1.9+ compatibility.}
