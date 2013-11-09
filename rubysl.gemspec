@@ -3,18 +3,13 @@ require './lib/rubysl/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "rubysl"
-  spec.version       = RubySL::VERSION
+  spec.version       = "1.0.3"
   spec.authors       = ["Brian Shirai"]
   spec.email         = ["brixen@gmail.com"]
   spec.description   = %q{Ruby 1.8 standard library meta-gem. Install this gem to install the Ruby standard library on compliant Ruby implementations that provide Ruby 1.8 compatibility.}
   spec.summary       = %q{Ruby 1.8 standard library meta-gem.}
   spec.homepage      = "http://rubysl.github.com"
   spec.license       = "BSD"
-
-  spec.files         = `git ls-files`.split($\)
-  spec.executables   = spec.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
-  spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
-  spec.require_paths = ["lib"]
 
   spec.add_runtime_dependency "rubysl-abbrev",        "~> 1.0"
   spec.add_runtime_dependency "rubysl-base64",        "~> 1.0"
