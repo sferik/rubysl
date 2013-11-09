@@ -1,6 +1,4 @@
 # -*- encoding: utf-8 -*-
-require './lib/rubysl/version'
-
 Gem::Specification.new do |spec|
   spec.name          = "rubysl"
   spec.version       = "1.0.3"
@@ -88,7 +86,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "rubysl-socket",        "~> 1.0"
   spec.add_runtime_dependency "rubysl-stringio",      "~> 1.0"
   spec.add_runtime_dependency "rubysl-strscan",       "~> 1.0"
-  spec.add_runtime_dependency "rubysl-syck",          "~> 1.0"
   spec.add_runtime_dependency "rubysl-sync",          "~> 1.0"
   spec.add_runtime_dependency "rubysl-syslog",        "~> 1.0"
   spec.add_runtime_dependency "rubysl-tempfile",      "~> 1.0"
