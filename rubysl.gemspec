@@ -43,7 +43,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "rubysl-io-wait",        "~> 2.0"
   spec.add_runtime_dependency "rubysl-ipaddr",         "~> 2.0"
   spec.add_runtime_dependency "rubysl-irb",            "~> 2.0"
-  spec.add_runtime_dependency "rubysl-json",           "~> 2.0"
   spec.add_runtime_dependency "rubysl-logger",         "~> 2.0"
   spec.add_runtime_dependency "rubysl-mathn",          "~> 2.0"
   spec.add_runtime_dependency "rubysl-matrix",         "~> 2.0"
