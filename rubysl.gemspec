@@ -87,7 +87,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "rubysl-sync",           "~> 2.0"
   spec.add_runtime_dependency "rubysl-syslog",         "~> 2.0"
   spec.add_runtime_dependency "rubysl-tempfile",       "~> 2.0"
-  spec.add_runtime_dependency "rubysl-test-unit",      "~> 2.0"
   spec.add_runtime_dependency "rubysl-thread",         "~> 2.0"
   spec.add_runtime_dependency "rubysl-thwait",         "~> 2.0"
   spec.add_runtime_dependency "rubysl-time",           "~> 2.0"
