@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 Gem::Specification.new do |spec|
   spec.name          = "rubysl"
-  spec.version       = "1.0.3"
+  spec.version       = "1.0.4"
   spec.authors       = ["Brian Shirai"]
   spec.email         = ["brixen@gmail.com"]
   spec.description   = %q{Ruby 1.8 standard library meta-gem. Install this gem to install the Ruby standard library on compliant Ruby implementations that provide Ruby 1.8 compatibility.}
