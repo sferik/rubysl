@@ -48,7 +48,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "rubysl-matrix",        "~> 1.0"
   spec.add_runtime_dependency "rubysl-mkmf",          "~> 1.0"
   spec.add_runtime_dependency "rubysl-monitor",       "~> 1.0"
-  spec.add_runtime_dependency "rubysl-mutex",         "~> 1.0"
   spec.add_runtime_dependency "rubysl-mutex_m",       "~> 1.0"
   spec.add_runtime_dependency "rubysl-net-ftp",       "~> 1.0"
   spec.add_runtime_dependency "rubysl-net-http",      "~> 1.0"
