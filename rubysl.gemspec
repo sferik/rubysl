@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 Gem::Specification.new do |spec|
   spec.name          = "rubysl"
-  spec.version       = "1.0.5"
+  spec.version       = "1.0.6"
   spec.authors       = ["Brian Shirai"]
   spec.email         = ["brixen@gmail.com"]
   spec.description   = %q{Ruby 1.8 standard library meta-gem. Install this gem to install the Ruby standard library on compliant Ruby implementations that provide Ruby 1.8 compatibility.}
@@ -99,8 +99,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "rubysl-uri",           "~> 1.0"
   spec.add_runtime_dependency "rubysl-weakref",       "~> 1.0"
   spec.add_runtime_dependency "rubysl-webrick",       "~> 1.0"
-  spec.add_runtime_dependency "rubysl-win32api",      "~> 1.0"
-  spec.add_runtime_dependency "rubysl-win32ole",      "~> 1.0"
   spec.add_runtime_dependency "rubysl-xmlrpc",        "~> 1.0"
   spec.add_runtime_dependency "rubysl-yaml",          "~> 1.0"
   spec.add_runtime_dependency "rubysl-zlib",          "~> 1.0"
